@@ -18,3 +18,20 @@ public class Produto
         Categoria = categoria;
     }
 }
+
+public class Cliente
+{
+    public int Id { get; }
+    public string Nome { get; }
+    public string Email { get; }
+    public string Cpf { get; }
+
+    public Cliente(int id, string nome, string email, string cpf)
+    {
+        Id = id;
+        Nome = nome;
+        Email = email;
+        Cpf = cpf;
+    }
+}
+
